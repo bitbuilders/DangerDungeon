@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da903f37d8b053b4aa99121cbbbd5d59, type: 3}
+  m_Name: Transition2
+  m_EditorClassIdentifier: 
+  m_dialogInfo:
+  - imageID: Player
+    message: Hey, I actually found some pretty neat stuff in that room.
+    cameraAmplitude: 0
+    cameraRate: 0
+  - imageID: Player
+    message: I'll only pick one though, because I don't want it to be too easy.
+    cameraAmplitude: 0
+    cameraRate: 0
+  m_nextLevel: Upgrade1
